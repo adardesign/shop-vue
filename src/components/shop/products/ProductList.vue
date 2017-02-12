@@ -4,7 +4,7 @@
     <div>
       <label>Filter by price:
           {{searchFilter}} - {{priceHigh}}
-          <input type="range" v-bind:value="priceLow"  v-bind:min="priceLow" v-bind:max="priceHigh"  v-model="searchFilter" placeholder="edit me">
+          <input type="range" step="20" v-bind:value="priceLow" v-bind:min="priceLow" v-bind:max="priceHigh"  v-model="searchFilter" placeholder="edit me">
       </label>
     </div>
 
