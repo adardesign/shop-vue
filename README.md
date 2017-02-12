@@ -8,7 +8,9 @@ This project is built with [vue-cli](https://github.com/vuejs/vue-cli) and [vuex
 
 Also I suggest you to use [vue-devtools](https://github.com/vuejs/vue-devtools) if you want a see how everything happens.
 
-Added a "Filter by price" option with via a range slider.
+#Changlog
+- Added a "Filter by price" option with via a range slider.
+- Calling bootstrap locally
 
 ### How cart works
 
