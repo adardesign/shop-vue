@@ -80,7 +80,7 @@ npm run e2e
 npm test
 ```
 
-### Changlog
+### Changelog
 - Added a "Filter by price" option with via a range slider.
 - Calling bootstrap locally
 - Add category filter

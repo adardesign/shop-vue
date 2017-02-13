@@ -1,6 +1,7 @@
 <template>
   <div>
     <page-header></page-header>
+    <navigation></navigation>
 
     <div class="container">
       <coupons></coupons>
@@ -20,6 +21,7 @@
 
 <script>
 import PageHeader from './../shared/PageHeader'
+import Navigation from './../shared/Navigation'
 import Coupons from './Coupons'
 import ProductList from './products/ProductList'
 import ShoppingCart from './shopping-cart/ShoppingCart'
@@ -29,6 +31,7 @@ export default {
   components: {
     PageHeader,
     Coupons,
+    Navigation,
     ProductList,
     ShoppingCart
   }
